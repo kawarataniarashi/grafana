@@ -1,4 +1,4 @@
-# grafanaの設定ファイルをgrafana dockerfileで操作する
+# grafanaの設定ファイルをgrafana in dockerfileで操作する
 
 ## やったこと
 
