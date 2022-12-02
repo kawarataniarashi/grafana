@@ -1,0 +1,12 @@
+{
+  "name": "mygrafana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kawarataniarashi/grafana.git",
+  "author": "arashikawaratani <kawaratani@allegrosmart.com>",
+  "license": "MIT",
+  "scripts":{
+    "build":"docker build -t mygrafana . ",
+    "start":"docker run -p 3000:3000 mygrafana"
+  }
+}
